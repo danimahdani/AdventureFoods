@@ -1,5 +1,6 @@
 #app {
   font-family: 'Montserrat',sans-serif;
+  min-height: 100vh;
 }
 
 .router-link-exact-active {
@@ -12,4 +13,13 @@
 
 .badge-success {
   background-color: #4EB883;
+}
+
+.card-product {
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
