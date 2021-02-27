@@ -96,8 +96,8 @@ export default {
               position: "top-right",
               duration: 3000,
               dismissible: true,
-            })
-              this.$router.push({ path: "/keranjang" })
+            });
+            this.$router.push({ path: "/keranjang" });
           })
           .catch((error) => console.log(error));
       } else {
